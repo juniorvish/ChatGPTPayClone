@@ -1,0 +1,27 @@
+.balanceDisplay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.balanceDisplay .balance {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.balanceDisplay .topUpButton {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.balanceDisplay .topUpButton:hover {
+    background-color: #45a049;
+}
