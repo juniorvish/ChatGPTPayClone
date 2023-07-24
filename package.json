@@ -1,0 +1,29 @@
+{
+  "name": "ChatGPTPayClone",
+  "version": "1.0.0",
+  "description": "A ChatGPT clone with integrated USDC micro-payment system",
+  "main": "next.config.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juniorvish/ChatGPTPayClone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juniorvish/ChatGPTPayClone/issues"
+  },
+  "homepage": "https://github.com/juniorvish/ChatGPTPayClone#readme",
+  "dependencies": {
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "@solana/web3.js": "^1.20.0",
+    "axios": "^0.21.1",
+    "tailwindcss": "^2.2.16"
+  }
+}
